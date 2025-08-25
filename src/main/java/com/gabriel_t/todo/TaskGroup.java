@@ -9,7 +9,7 @@ public class TaskGroup {
 
     public TaskGroup(String groupName) {
         this.groupName = groupName;
-        this.tasks = new ArrayList<Task>();
+        this.tasks = new ArrayList<>();
     }
 
     public String getGroupName() {
