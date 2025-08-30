@@ -4,12 +4,17 @@ import java.util.ArrayList;
 
 public class TaskGroup {
 
+    private Integer id;
     private String groupName;
     private ArrayList<Task> tasks;
 
     public TaskGroup(String groupName) {
         this.groupName = groupName;
         this.tasks = new ArrayList<>();
+    }
+
+    public Integer getId() {
+        return id;
     }
 
     public String getGroupName() {
